@@ -1,6 +1,6 @@
 # OGC 2025 차량 운송선 적재 · 하역 최적화
 
-2025 OGC 공모전의 차량 운송선(RoRo) 적재 문제를 푸는 Python 알고리즘입니다.
+[Optimization Grand Challenge (OGC)](https://optichallenge.com) 2025 공모전의 차량 운송선(RoRo) 적재 문제를 푸는 Python 알고리즘입니다.
 선박 내부를 그래프로 보고, 여러 항구에서 차량을 싣고 내리는 순서와 위치를 정해 **고정비 + 이동 거리 비용**의 합을 줄입니다.
 
 ## 접근
@@ -36,4 +36,4 @@ cd src
 python -c "import json, myalgorithm as m; p = json.load(open('../examples/prob1.json')); print(m.algorithm(p, timelimit=60) is not None)"
 ```
 
-문제 정의 · 베이스라인 · 연습 문제 · `util.py` 는 OGC 2025 주최 측이 제공했고, `src/` 의 배치 알고리즘은 베이스라인을 바탕으로 직접 개발했습니다.
+문제 정의 · 베이스라인 · 연습 문제 · `util.py` 는 [OGC 2025](https://optichallenge.com) 주최 측이 제공했고, `src/` 의 배치 알고리즘은 베이스라인을 바탕으로 직접 개발했습니다.
